@@ -35,6 +35,12 @@ public class Conta {
         public void setNomeTitular(String nomeTitular){
             this.nomeTitular = nomeTitular;
         }
+
+    @Override
+    public String toString() {
+        return "Conta{" + "numero=" + numero + ", nomeTitular=" + nomeTitular + ", saldo=" + saldo + '}';
+    }
+        
     }
 
 
